@@ -61,7 +61,6 @@ const Location = () => {
                   </div>
                 </div>
               </div>
-
               <div className="bg-zinc-800/50 backdrop-blur-lg p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-zinc-700/50">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-[#18C67E]/10 rounded-lg">
@@ -76,7 +75,7 @@ const Location = () => {
                         href="tel:+1234567890"
                         className="text-[#18C67E] hover:text-emerald-400 transition-colors mt-2 inline-block text-xl font-semibold"
                       >
-                        +123 456 7890
+                       +60 12-623 9047
                       </a>
                     </p>
                   </div>
@@ -97,7 +96,6 @@ const Location = () => {
                 </div>
               </div>
             </div>
-
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-[#18C67E] to-emerald-400 rounded-2xl transform rotate-1 opacity-20 blur-xl"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-zinc-700">

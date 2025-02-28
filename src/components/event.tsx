@@ -45,8 +45,9 @@ export default function Event() {
                   GROUP MEETUP NIGHT
                 </h3>
                 <p className="text-gray-300 mb-8">
-                  Orci posuere eu fringilla accumsan, consequat mollis amet,
-                  nullam mollis ullamcorper elit mauris eget.
+                 Join us for a cozy evening filled with great food, music, and
+                  conversations. A perfect chance to reconnect with old friends
+                  and make new ones while enjoying our signature dishes.
                 </p>
                 <button className="border rounded-md border-white px-8 py-3 text-sm font-medium hover:bg-white hover:text-black transition-colors">
                   BOOK YOUR TABLE
@@ -79,8 +80,7 @@ export default function Event() {
                   POOL BALL NIGHT
                 </h3>
                 <p className="text-gray-300 mb-8">
-                  Orci posuere eu fringilla accumsan, consequat mollis.
-                </p>
+                Join us for an exciting Pool Ball Night at Habebeelounge! Show off your skills, compete with friends, and enjoy a night of great vibes, drinks, and music. </p>
                 <button className="border rounded-md border-white px-8 py-3 text-sm font-medium hover:bg-white hover:text-black transition-colors">
                   BOOK YOUR TABLE
                 </button>

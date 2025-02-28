@@ -1,6 +1,6 @@
 export default function Map() {
   return (
-    <section className="w-full bg-zinc-900 text-white py-12 px-6 mt-16">
+    <section className="w-full bg-zinc-900 text-white py-12 px-6 ">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-[#18C67E]">
           Visit Habebee Lounge – Your Best Dining Option in Cyberjaya

@@ -16,16 +16,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Best Restaurant in Cyberjaya | Habebee Lounge",
-  description: "Discover the best dining experience at Habebee Lounge in Cyberjaya. Enjoy Western food, cozy ambiance, and exceptional service. Visit us today!",
-  keywords: ["Best restaurant in Cyberjaya", "Western food Cyberjaya", "Habebee Lounge"],
+  description:
+    "Discover the best dining experience at Habebee Lounge in Cyberjaya. Enjoy Western food, cozy ambiance, and exceptional service. Visit us today!",
+  keywords: [
+    "Best restaurant in Cyberjaya",
+    "Western food Cyberjaya",
+    "Habebee Lounge",
+  ],
   openGraph: {
     title: "Best Restaurant in Cyberjaya | Habebee Lounge",
-    description: "Discover the best dining experience at Habebee Lounge in Cyberjaya.",
+    description:
+      "Discover the best dining experience at Habebee Lounge in Cyberjaya.",
     type: "website",
-    url: "https://yourwebsite.com/cyberjaya-restaurant",
+    url: "https://www.habebeelounge.com.my/cyberjaya-restaurant",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg",
+        url: "https://www.habebeelounge.com.my/cyberjaya-restaurant/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Habebee Lounge Cyberjaya",
@@ -41,9 +47,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: "https://www.habebeelounge.com.my/cyberjaya-restaurant",
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "Cyberjaya Restaurant",
+                  item: "https://www.habebeelounge.com.my/cyberjaya-restaurant",
+                },
+              ],
+            }),
+          }}
+        />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         {children}
         <Footer />

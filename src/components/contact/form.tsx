@@ -22,20 +22,17 @@ export default function Form() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-12">
             <p className="text-lg text-center lg:text-left leading-relaxed">
-              Sagittis, faucibus nibh sed rhoncus lacus, amet, quis eget tristique
-              purus faucibus orci commodo fames aliquet venenatis sed aliquet
-              purus felis congue vulputate.
-            </p>
+            With a rhythmic flow, the heartbeat of elegance—graceful curves of foliage embrace strength. Where purpose meets charm, the dance of nature weaves a tale of harmony and bold refinement.            </p>
 
             <div>
               <h2 className={`${bebasNeue.className} text-3xl font-bold mb-4`}>
                 SPEAK TO US
               </h2>
               <div className="space-y-3 text-lg font-medium">
-                <p>📞 Call: +1 123 456 7890</p>
-                <p>📧 Event Enquiry: laura@example.com</p>
+                <p>📞 Call: +60 12-623 9047</p>
+                {/* <p>📧 Event Enquiry: laura@example.com</p>
                 <p>📰 Press Enquiry: mark@example.com</p>
-                <p>📩 Other Enquiry: mail@example.com</p>
+                <p>📩 Other Enquiry: mail@example.com</p> */}
               </div>
             </div>
 

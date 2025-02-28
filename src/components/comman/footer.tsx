@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <Link href="/" className="flex items-center gap-2 mb-6 md:mb-0">
             <img
-              src="/img/logo.svg"
+              src="/img/logo1.jpg"
               alt="IrishCafe Logo"
               className="h-14 w-auto ml-4 sm:ml-8 lg:ml-32"
             />
@@ -31,13 +31,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="transition-colors">
+                <a href="/menu" className="transition-colors">
                   Drinks
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/menu"
                   className="hover:text-emerald-500 transition-colors"
                 >
                   Food

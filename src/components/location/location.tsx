@@ -13,7 +13,7 @@ const Location = () => {
           content="Visit Habebee Lounge in Cyberjaya, conveniently located near MMU, Mutiara Ville, and the hospital. Enjoy the best food in the area today!"
         />
       </Head>
-      <main className="min-h-screen bg-gradient-to-b from-black to-zinc-900 text-white">
+      <main className="min-h-screen bg-zinc-900 text-white">
         <div className="container mx-auto px-4 py-16">
           <div className="text-center mb-16 space-y-6">
             <h1 className="text-5xl font-extrabold bg-gradient-to-r from-[#18C67E] to-emerald-400 bg-clip-text text-transparent animate-fade-in">

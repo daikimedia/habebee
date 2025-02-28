@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="w-full bg-transparent absolute top-0 left-0 z-50">
+    <header className="w-full bg-zinc-900 absolute top-0 left-0 z-50">
       <div className="container mx-auto flex h-16 items-center px-4">
         <Link href="/" className="flex items-center gap-2">
           <img

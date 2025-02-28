@@ -196,7 +196,7 @@ export const BLOG = () => {
   ];
 
   return (
-    <main className="bg-gradient-to-b from-[#0A0A0A] to-[#121212] min-h-screen py-16">
+    <main className="bg-zinc-900 min-h-screen py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16 relative">
           <div className="absolute w-32 h-32 bg-green-500/20 rounded-full blur-3xl -top-12 left-1/2 -translate-x-1/2 z-0"></div>

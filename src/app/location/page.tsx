@@ -19,13 +19,11 @@ const LocationPage = () => {
         />
       </Head>
 
-      {/* Breadcrumb Schema for SEO */}
       <BreadcrumbSchema breadcrumbs={breadcrumbs} />
 
-      {/* Breadcrumbs Section */}
       <div className="bg-zinc-900 text-white py-3 px-6 shadow-md mt-[60px]">
         <nav aria-label="breadcrumb" className="max-w-7xl mx-auto">
-          <div className="ml-6"> {/* Ye sirf breadcrumbs ko move karega */}
+          <div className="ml-6"> 
             <ol className="flex items-center space-x-2 text-lg">
               {breadcrumbs.map((crumb, index) => (
                 <li key={index} className="flex items-center">
@@ -44,7 +42,7 @@ const LocationPage = () => {
         </nav>
       </div>
 
-      {/* Location Content */}
+      
       <Location />
     </>
   );

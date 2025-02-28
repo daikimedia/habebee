@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 export default function Video() {
   return (
-    <div className="bg-zinc-900 mb-32">
+    <div className="bg-zinc-900 min-h-screen">
       <div className="relative w-full h-[50vh] md:h-[70vh]">
         <div
           className="absolute inset-0 bg-cover bg-center"

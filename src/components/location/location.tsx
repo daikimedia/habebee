@@ -41,7 +41,7 @@ const Location = () => {
                   </div>
                   <div>
                     <h2 className="text-2xl font-bold mb-3 text-[#18C67E]">Find Us Here</h2>
-                    <p className="text-lg text-zinc-300">
+                    <div className="text-lg text-zinc-300">
                       Strategically located near:
                       <ul className="mt-2 space-y-2">
                         <li className="flex items-center gap-2">
@@ -57,7 +57,7 @@ const Location = () => {
                           Cyberjaya Hospital
                         </li>
                       </ul>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

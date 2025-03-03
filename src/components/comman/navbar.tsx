@@ -12,37 +12,30 @@ export default function Navbar() {
   return (
     <header className="w-full bg-zinc-900 absolute top-0 left-0 z-50">
       <div className="container mx-auto flex h-16 items-center px-4">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/cyberjaya-restaurant" className="flex items-center gap-2">
           <img
             src="/img/logo1.jpg"
             alt="IrishCafe Logo"
-            className="h-12 w-auto  border-black ml-4 sm:ml-8 lg:ml-32"
+            className="h-12 w-auto border-black ml-4 sm:ml-8 lg:ml-32"
           />
         </Link>
 
         <nav className="hidden md:flex w-full justify-center">
           <ul className="flex space-x-2">
-            {['Home', 'About', 'Menu', 'Location', 'Blog', 'Contact'].map((item) => (
-              <li key={item}>
+            {[
+              { name: 'Home', path: '/cyberjaya-restaurant' },
+              { name: 'About', path: '/cyberjaya-restaurant/about-us' },
+              { name: 'Menu', path: '/cyberjaya-restaurant/menu' },
+              { name: 'Location', path: '/cyberjaya-restaurant/location' },
+              { name: 'Blog', path: '/cyberjaya-restaurant/blog' },
+              { name: 'Contact', path: '/contact' },
+            ].map((item) => (
+              <li key={item.name}>
                 <Link
-                  href={
-                    item === 'Home'
-                      ? '/'
-                      : item === 'About'
-                        ? '/about'
-                        : item === 'Menu'
-                          ? '/menu'
-                          : item === 'Location'
-                            ? '/location'
-                            : item === 'Blog'
-                              ? '/blog'
-                              : item === 'Contact'
-                                ? '/contact'
-                                : '#'
-                  }
+                  href={item.path}
                   className="text-lg inline-flex h-10 items-center justify-center rounded-md px-4 py-2 font-medium text-white transition"
                 >
-                  {item}
+                  {item.name}
                 </Link>
               </li>
             ))}
@@ -88,27 +81,20 @@ export default function Navbar() {
       {isMenuOpen && (
         <nav className="absolute top-16 left-0 w-full bg-black/80 backdrop-blur-md md:hidden">
           <ul className="flex flex-col space-y-2 px-4 py-4">
-            {['Home', 'About', 'Menu', 'Location', 'Blog', 'Contact'].map((item) => (
-              <li key={item}>
+            {[
+              { name: 'Home', path: '/cyberjaya-restaurant' },
+              { name: 'About', path: '/cyberjaya-restaurant/about-us' },
+              { name: 'Menu', path: '/cyberjaya-restaurant/menu' },
+              { name: 'Location', path: '/cyberjaya-restaurant/location' },
+              { name: 'Blog', path: '/cyberjaya-restaurant/blog' },
+              { name: 'Contact', path: '/contact' },
+            ].map((item) => (
+              <li key={item.name}>
                 <Link
-                  href={
-                    item === 'Home'
-                      ? '/'
-                      : item === 'About'
-                        ? '/about'
-                        : item === 'Menu'
-                          ? '/menu'
-                          : item === 'Location'
-                            ? '/location'
-                            : item === 'Blog'
-                              ? '/blog'
-                              : item === 'Contact'
-                                ? '/contact'
-                                : '#'
-                  }
+                  href={item.path}
                   className="block rounded-md px-4 py-2 text-sm font-medium text-white transition"
                 >
-                  {item}
+                  {item.name}
                 </Link>
               </li>
             ))}

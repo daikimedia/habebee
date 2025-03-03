@@ -23,8 +23,7 @@ const Location = () => {
               Habebee Lounge is conveniently located near MMU, Mutiara Ville, and the hospital in
               Cyberjaya. Whether you&apos;re a student, local resident, or visitor we&apos;re easy
               to find and ready to serve you.
-            </p>
-
+            </p> 
             <div className="flex justify-center gap-2">
               {[1, 2, 3, 4, 5].map((star) => (
                 <Star key={star} className="w-6 h-6 text-yellow-400 fill-yellow-400" />

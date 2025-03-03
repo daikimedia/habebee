@@ -19,7 +19,6 @@ export default function Navbar() {
             className="h-12 w-auto border-black ml-4 sm:ml-8 lg:ml-32"
           />
         </Link>
-
         <nav className="hidden md:flex w-full justify-center">
           <ul className="flex space-x-2">
             {[
@@ -53,7 +52,6 @@ export default function Navbar() {
             </button>
           </Link>
         </div>
-
         <div className="ml-auto md:hidden">
           <button
             onClick={toggleMenu}
@@ -93,6 +91,7 @@ export default function Navbar() {
                 <Link
                   href={item.path}
                   className="block rounded-md px-4 py-2 text-sm font-medium text-white transition"
+                  onClick={() => setIsMenuOpen(false)} 
                 >
                   {item.name}
                 </Link>
@@ -104,6 +103,7 @@ export default function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-white transition"
+                onClick={() => setIsMenuOpen(false)} 
               >
                 ORDER
               </Link>

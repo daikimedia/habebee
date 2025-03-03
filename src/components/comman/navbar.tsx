@@ -14,9 +14,9 @@ export default function Navbar() {
       <div className="container mx-auto flex h-16 items-center px-4">
         <Link href="/cyberjaya-restaurant" className="flex items-center gap-2">
           <img
-            src="/img/logo1.jpg"
+            src="/img/logobg.png"
             alt="IrishCafe Logo"
-            className="h-12 w-auto border-black ml-4 sm:ml-8 lg:ml-32"
+            className="h-32 w-auto border-black ml-4 sm:ml-8 lg:ml-32"
           />
         </Link>
         <nav className="hidden md:flex w-full justify-center">

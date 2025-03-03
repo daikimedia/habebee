@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <Link href="/" className="flex items-center gap-2 mb-6 md:mb-0">
             <img
-              src="/img/logo1.jpg"
+              src="/img/logobg.png"
               alt="IrishCafe Logo"
-              className="h-14 w-auto ml-4 sm:ml-8 lg:ml-32"
+              className="h-32 w-auto ml-4 sm:ml-8 lg:ml-32"
             />
           </Link>
 

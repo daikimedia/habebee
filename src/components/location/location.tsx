@@ -120,7 +120,7 @@ const Location = () => {
                 View Our Menu
               </Link>
               <Link
-                href="/"
+                href="/about"
                 className="px-8 py-4 bg-zinc-800 text-white rounded-xl hover:bg-zinc-700 transition-all duration-300 text-lg font-semibold border border-zinc-700"
               >
                 About Us
